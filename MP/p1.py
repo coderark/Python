@@ -1,0 +1,15 @@
+import turtle
+
+sc=turtle.Screen()
+sc.bgcolor("lightgreen")
+sc.title("Hello")
+tr=turtle.Turtle()
+tr.color("blue")
+tr.pensize(3)
+tr.forward(50)
+tr.left(120)
+tr.forward(50)
+tr.left(120)
+tr.forward(50)
+tr.hideturtle()
+sc.mainloop()
